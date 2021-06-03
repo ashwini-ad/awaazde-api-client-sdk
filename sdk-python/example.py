@@ -1,4 +1,5 @@
-from .awaazde import AwaazDeAPI, APIException
+from .awaazde import AwaazDeAPI
+from .awaazde.exceptions import APIException
 
 username = 'nikhil@awaaz.de'
 password = 'your password'
